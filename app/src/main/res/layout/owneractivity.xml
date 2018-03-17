@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_margin="21dp"
+        android:background="#6873f2"
+        android:ems="10"
+        android:hint="item name here"
+        android:inputType="textPersonName"
+        android:textColor="#0e0e0e"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/itemid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/name"
+        android:layout_margin="29dp"
+        android:background="#6873f2"
+        android:ems="10"
+        android:hint="id here"
+        android:inputType="textPersonName"
+
+        android:textColor="#0e0e0e"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/itemid"
+        android:layout_margin="28dp"
+        android:background="#6873f2"
+        android:ems="10"
+        android:hint="price here"
+        android:inputType="textPersonName"
+        android:textColor="#0e0e0e"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/price"
+        android:layout_centerHorizontal="true"
+        android:background="#6873f2"
+        android:layout_marginTop="87dp"
+        android:text="add item" />
+</RelativeLayout>

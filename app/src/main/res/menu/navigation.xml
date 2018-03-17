@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/customer"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="CUSTOMER" />
+
+    <item
+        android:id="@+id/owner"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="OWNER" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_view_agenda_black_24dp"
+        android:title="KNOW MORE" />
+
+</menu>

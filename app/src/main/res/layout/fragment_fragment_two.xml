@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anjana.billpay.FragmentTwo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="20dp"
+            android:text="Hello,OWNER!!"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:textColor="#292828"
+            android:inputType="textMultiLine" />
+        <EditText
+            android:id="@+id/secret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#839ff1"
+            android:inputType="textPassword"
+            android:layout_below="@id/editText3"
+            android:layout_margin="100dp"
+            />
+        <Button
+            android:id="@+id/button1"
+            android:background="#7aaaf2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secret"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="Validate" />
+    </RelativeLayout>
+</FrameLayout>
